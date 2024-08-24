@@ -10,7 +10,7 @@ Official implementation of `Zero-shot Gaussian Splatting from Uncalibarated Imag
 
 1. Clone Splatt3R  
 ```bash
-git clone <redacted github link>
+git clone https://github.com/btsmart/splatt3r.git
 cd splatt3r
 ```
 
