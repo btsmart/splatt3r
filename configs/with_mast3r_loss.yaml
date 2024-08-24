@@ -1,0 +1,6 @@
+include: ['main.yaml']
+
+name: 'with_mast3r_loss/%Y-%m-%d-%H-%M-%S'
+
+loss:
+  mast3r_loss_weight: 0.05
