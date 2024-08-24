@@ -1,0 +1,6 @@
+include: ['main.yaml']
+
+name: 'without_lpips_loss/%Y-%m-%d-%H-%M-%S'
+
+loss:
+  lpips_loss_weight: 0.0

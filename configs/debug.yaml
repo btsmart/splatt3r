@@ -1,0 +1,17 @@
+include: ['main.yaml']
+
+save_dir: './results/debug/${name}/'
+
+devices: [0]
+
+loggers:
+  use_wandb: True
+
+data:
+  root: '/media/brandon/anubis09/scannetpp'
+  batch_size: 2
+  num_workers: 8
+  epochs_per_train_epoch: 10
+
+opt:
+  epochs: 1

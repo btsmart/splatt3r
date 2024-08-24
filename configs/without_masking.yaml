@@ -1,0 +1,7 @@
+include: ['main.yaml']
+
+name: 'without_masking/%Y-%m-%d-%H-%M-%S'
+
+loss:
+  apply_mask: False
+  average_over_mask: False
