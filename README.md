@@ -4,7 +4,7 @@
 
 Official implementation of `Zero-shot Gaussian Splatting from Uncalibarated Image Pairs`
 
-[Project Page](https://splatt3r.active.vision), [Splatt3R arXiv](https://arxiv.org/), [Demo Page](https://huggingface.co/spaces/brandonsmart/splatt3r)
+[Project Page](https://splatt3r.active.vision), [Demo Page](https://huggingface.co/spaces/brandonsmart/splatt3r)
 
 ## Installation
 
