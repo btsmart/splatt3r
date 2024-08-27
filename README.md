@@ -1,10 +1,26 @@
-# Splatt3R: Zero-shot Gaussian Splatting from Uncalibarated Image Pairs
+<div align="center">
+
+# Splatt3R: Zero-shot Gaussian Splatting from Uncalibrated Image Pairs
+
+[**Brandon Smart**](https://scholar.google.com/citations?user=k_jn6-EAAAAJ)<sup>1</sup> · [**Chuanxia Zheng**](https://chuanxiaz.com/)<sup>2</sup> · [**Iro Laina**](https://scholar.google.com/citations?user=n9nXAPcAAAAJ)<sup>2</sup> · [**Victor Adrian Prisacariu**](https://www.robots.ox.ac.uk/~victor/)<sup>1</sup> 
+
+<sup>1</sup>Active Vision Lab · <sup>2</sup>Visual Geometry Group
+
+University of Oxford
+
+<a href='https://splatt3r.active.vision'><img src='https://img.shields.io/badge/Project-Page-green'></a>
+<a href='https://arxiv.org/abs/2408.13912'><img src='https://img.shields.io/badge/arXiv Paper-red'></a>
+<a href='https://huggingface.co/spaces/brandonsmart/splatt3r'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>
+
+</div>
 
 ![Teaser for Splatt3R](assets/overview.svg)
 
-Official implementation of `Splatt3R: Zero-shot Gaussian Splatting from Uncalibarated Image Pairs`
+Official implementation of `Splatt3R: Zero-shot Gaussian Splatting from Uncalibrated Image Pairs`, a feed-forward model that can directly predict 3D Gaussians from uncalibrated images.
 
-\[[Project Page](https://splatt3r.active.vision)\], \[[ArXiv Submission](https://arxiv.org/abs/2408.13912)\], \[[Demo](https://huggingface.co/spaces/brandonsmart/splatt3r)\]
+## News
+
+- [2024/08/27] 🔥 We release the initial version of the codebase, the paper, the project webpage, and the Gradio demo!!
 
 ## Installation
 
@@ -54,4 +70,15 @@ Our training run can be recreated by running `python main.py configs/main.yaml`.
 
 ## BibTeX
 
-Forthcoming arXiv citation
+If you find Splatt3R useful for your research and applications, please cite us using this BibTex:
+```
+@article{smart2024splatt3r,
+      title={Splatt3R: Zero-shot Gaussian Splatting from Uncalibrated Image Pairs}, 
+      author={Brandon Smart and Chuanxia Zheng and Iro Laina and Victor Adrian Prisacariu},
+      year={2024},
+      eprint={2408.13912},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.13912}, 
+}
+```
