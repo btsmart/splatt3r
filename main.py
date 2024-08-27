@@ -279,7 +279,7 @@ def run_experiment(config):
         loggers.append(csv_logger)
     if config.loggers.use_wandb:
         wandb_logger = L.pytorch.loggers.WandbLogger(
-            project='gaussian_zero',
+            project='splatt3r',
             name=config.name,
             save_dir=config.save_dir,
             config=omegaconf.OmegaConf.to_container(config),

@@ -2,9 +2,9 @@
 
 ![Teaser for Splatt3R](assets/overview.svg)
 
-Official implementation of `Zero-shot Gaussian Splatting from Uncalibarated Image Pairs`
+Official implementation of `Splatt3R: Zero-shot Gaussian Splatting from Uncalibarated Image Pairs`
 
-[Project Page](https://splatt3r.active.vision), [Demo Page](https://huggingface.co/spaces/brandonsmart/splatt3r)
+\[[Project Page](https://splatt3r.active.vision)\], \[[ArXiv Submission](https://arxiv.org/abs/2408.13912)\], \[[Demo](https://huggingface.co/spaces/brandonsmart/splatt3r)\]
 
 ## Installation
 
