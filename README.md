@@ -39,9 +39,9 @@ pip install git+https://github.com/dcharatan/diff-gaussian-rasterization-modifie
 3. (Optional) Compile the CUDA kernels for RoPE (as in MASt3R and CroCo v2)
 
 ```bash
-cd src/dust3r_src/croco/models/curope/
+cd src/mast3r_src/dust3r/croco/models/curope/
 python setup.py build_ext --inplace
-cd ../../../../../
+cd ../../../../../../
 ```
 
 ## Checkpoints
