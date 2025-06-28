@@ -22,7 +22,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 ckpt = hf_hub_download(
     repo_id="brandonsmart/splatt3r_v1.0",
     filename="epoch=19-step=1200.ckpt",
-    local_dir="/scratch/shared/hf_cache/models/splatt3r",
+    local_dir="/cluster/51/dengnick/models/splatt3r",
     local_dir_use_symlinks=False,
     resume_download=True,    # handy if the job is pre-emptible
 )
