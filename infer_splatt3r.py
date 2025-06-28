@@ -19,7 +19,7 @@ args = parser.parse_args()
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # download / locate the official checkpoint (≈ 1.3 GB)
-ckpt_path = hf_hub_download(
+ckpt = hf_hub_download(
     repo_id="brandonsmart/splatt3r_v1.0",
     filename="epoch=19-step=1200.ckpt",
     local_dir="/scratch/shared/hf_cache/models/splatt3r",
